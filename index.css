@@ -1,4 +1,4 @@
-.u-section-1 .u-sheet-1 {
+ .u-section-1 {
   min-height: 1276px;
 }
 
@@ -49,15 +49,15 @@
 }
 
 .u-section-1 .u-products-1 {
-  margin-top: 37px;
-  margin-bottom: 0;
+  width: 1374px;
+  margin: 37px auto 0;
 }
 
 .u-section-1 .u-repeater-1 {
-  grid-template-columns: repeat(4, calc(25% - 22.5px));
-  min-height: 446px;
-  grid-auto-columns: calc(25% - 22.5px);
-  grid-gap: 30px;
+  grid-template-columns: repeat(6, calc(16.6667% - 6.66667px));
+  min-height: 432px;
+  grid-auto-columns: calc(16.6667% - 6.66667px);
+  grid-gap: 8px;
 }
 
 .u-section-1 .u-repeater-item-1 {
@@ -265,12 +265,22 @@
 }
 
 .u-section-1 .u-shape-1 {
-  height: 250px;
-  margin-top: 70px;
-  margin-bottom: 57px;
+  height: 186px;
+  margin-top: 205px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1199px) {
+  .u-section-1 .u-products-1 {
+    width: 940px;
+    margin-left: calc(((100% - 940px) / 2));
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-auto-columns: calc(16.666666666666668% - 6.666670000000001px);
+    grid-template-columns: repeat(6, calc(16.666666666666668% - 6.666670000000001px));
+  }
+
   .u-section-1 .u-text-1 {
     margin-left: 0;
     margin-right: 0;
@@ -307,9 +317,14 @@
     width: 720px;
   }
 
+  .u-section-1 .u-products-1 {
+    width: 720px;
+    margin-left: calc(((100% - 720px) / 2));
+  }
+
   .u-section-1 .u-repeater-1 {
-    grid-template-columns: repeat(2, calc(50% - 15px));
-    grid-auto-columns: calc(50% - 15px);
+    grid-auto-columns: calc(33.333333333333336% - 5.333336px);
+    grid-template-columns: repeat(3, calc(33.333333333333336% - 5.333336px));
   }
 }
 
@@ -318,9 +333,14 @@
     width: 540px;
   }
 
+  .u-section-1 .u-products-1 {
+    width: 540px;
+    margin-left: calc(((100% - 540px) / 2));
+  }
+
   .u-section-1 .u-repeater-1 {
-    grid-template-columns: 100%;
-    grid-auto-columns: calc(100% - 0px);
+    grid-auto-columns: calc(50% - 4.000002px);
+    grid-template-columns: repeat(2, calc(50% - 4.000002px));
   }
 }
 
@@ -329,7 +349,13 @@
     width: 340px;
   }
 
+  .u-section-1 .u-products-1 {
+    width: 340px;
+    margin-left: calc(((100% - 340px) / 2));
+  }
+
   .u-section-1 .u-repeater-1 {
-    grid-auto-columns: 100%;
+    grid-auto-columns: calc(100% - 0px);
+    grid-template-columns: 100%;
   }
 }
